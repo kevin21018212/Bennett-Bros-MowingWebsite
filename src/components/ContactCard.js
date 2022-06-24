@@ -13,14 +13,14 @@ function Cards() {
               src={require('../images/Email.jpg')}
               text='Email: bennettyard@gmail.com'
               label='Email'
-              path='/Contact'
+              path=''
             />
             <CardItem
               src={require('../images/Phone.jpg')}
               text='Phone:
                217-278-1869'
               label='Phone'
-              path='/Contact'
+              path=''
             />
           </ul>
           

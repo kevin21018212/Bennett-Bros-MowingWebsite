@@ -5,8 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
-import Products from './components/pages/Specialty Requests';
-import SignUp from './components/pages/Contact';
+import SignUp from './components/pages/sign-up.js'
 import Footer from './components/Footer';
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
  
        < Route path="/" exact element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/products" element={<Products />} />
+     
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
         <Footer />
