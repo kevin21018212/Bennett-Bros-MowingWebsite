@@ -18,7 +18,7 @@ function Cards() {
             <CardItem
               src={require('../images/Phone.jpg')}
               text='Phone:
-               217-278-1869'
+               217-714-8042'
               label='Phone'
               path=''
             />
